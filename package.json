@@ -22,5 +22,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joeytrapp/grunt-fabricate/issues"
+  },
+  "dependencies": {
+    "fabricate": "~0.1.0"
   }
 }
