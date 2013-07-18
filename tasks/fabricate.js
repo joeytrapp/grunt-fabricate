@@ -1,6 +1,4 @@
 module.exports = function(grunt) {
-  'use strict';
-
   var Fabricate = require('fabricate'),
       desc = 'Uses mincer to build dependencies and apply engines, and then uses uglify to concat and produce source map';
 

@@ -1,14 +1,40 @@
 {
   "name": "grunt-fabricate",
-  "version": "0.1.0",
   "description": "Grunt wrappings for node-fabricate",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.1",
+  "homepage": "https://github.com/joeytrapp/grunt-fabricate",
+  "author": {
+    "name": "Joey Trapp",
+    "email": "jtrapp07@gmail.com"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/joeytrapp/grunt-fabricate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeytrapp/grunt-fabricate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/joeytrapp/grunt-fabricate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
   },
   "keywords": [
     "fabricate",
@@ -19,11 +45,6 @@
     "sourcemap",
     "gruntplugin"
   ],
-  "author": "Joey Trapp",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joeytrapp/grunt-fabricate/issues"
-  },
   "dependencies": {
     "fabricate": "~0.1.0"
   }
