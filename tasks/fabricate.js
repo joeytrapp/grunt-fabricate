@@ -7,8 +7,12 @@ module.exports = function(grunt) {
         done     = this.async();
 
     new Fabricate(options).build(function(err) {
+      if (err) {
+        grunt.fatal('Could not compile ' + options.src + ": \n" + err.toString());
+        return;
+      }
       grunt.log.write('Created ' + options.dest.cyan + "\n");
       done();
-    });
+    }.bind(this));
   });
 };
