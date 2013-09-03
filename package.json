@@ -1,7 +1,7 @@
 {
   "name": "grunt-fabricate",
   "description": "Grunt wrappings for node-fabricate",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/joeytrapp/grunt-fabricate",
   "author": {
     "name": "Joey Trapp",
@@ -46,6 +46,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "fabricate": "~0.1.0"
+    "fabricate": "~0.2.0"
   }
 }
